@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "nodetest"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: user:guest
   lifecycle: experimental
-metadata:
-  annotations:
-    backstage.io/techdocs-ref: dir:.
+  
